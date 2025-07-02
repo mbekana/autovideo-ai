@@ -1,0 +1,7 @@
+openai-whisper
+ffmpeg-python
+moviepy
+pydub
+python-dotenv
+rich
+loguru

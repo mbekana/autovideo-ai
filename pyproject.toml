@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "autovideo"
+version = "0.1.0"
+description = "Automated video generation pipeline using free tools"
+authors = ["Milkias Bekana <milkias.bekana29@gmail.com>"]
+packages = [{ include = "autovideo" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai-whisper = "*"
+ffmpeg-python = "*"
+moviepy = "*"
+pydub = "*"
+python-dotenv = "*"
+loguru = "*"
+rich = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
